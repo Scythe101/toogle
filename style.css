@@ -1,0 +1,21 @@
+.main {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+}
+
+#searchbar {
+    width: 75dvw;
+    height: 100px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 4px;
+    stroke: var(--Google-Green, #34A853);
+    filter: drop-shadow(0px 4px 16.8px #74D78F);
+    border-radius: 300px;
+    border-color: #34A853;
+    border-width: 4px;
+    border-style: solid;
+    font-size: 34px;
+    color:#34A853;
+}
