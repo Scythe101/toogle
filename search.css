@@ -138,3 +138,7 @@ body{
     margin-top: 16px;
     margin-left: 30px;
 }
+
+.gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+    color: #4889f9;
+}
