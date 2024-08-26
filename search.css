@@ -58,13 +58,15 @@ body{
     color: #e5aa00;
     font-family: "Inter";
     font-weight: 500;
+    font-size: 16px;
 }
 
 .gs-webResult .gs-snippet, .gs-fileFormatType{
     color: black;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 430;
     padding-bottom: 14px;
+    font-family: "Inter";
 }
 .gsc-control-cse {
     font-family: "Inter", sans-serif;
@@ -139,6 +141,26 @@ body{
     margin-left: 30px;
 }
 
+b {
+    font-weight: inherit;
+}
+
 .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
     color: #4889f9;
 }
+
+.gsc-option-menu-item{
+    padding: 0 15px 0 10px;
+    color: black;
+}
+
+.gsc-option-menu-item-highlighted{
+    color:black;
+}
+
+.gsc-control-cse .gsc-option-menu{
+    position: fixed;
+    right: auto;
+    top: 108px;
+}
+
