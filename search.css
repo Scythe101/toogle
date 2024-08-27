@@ -164,3 +164,11 @@ b {
     top: 108px;
 }
 
+.gcsc-find-more-on-google {
+    color: white;
+    cursor: default;
+}
+
+.gcsc-find-more-on-google-magnifier {
+    fill: white;
+}
